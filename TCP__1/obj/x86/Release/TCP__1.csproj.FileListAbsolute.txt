@@ -1,0 +1,36 @@
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\bin\Release\TCP__1.exe
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\bin\Release\TCP__1.pdb
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Release\TCP__1.Form1.resources
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Release\TCP__1.Properties.Resources.resources
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Release\TCP__1.exe
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Release\TCP__1.pdb
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\bin\Release\TCP__1.exe
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\bin\Release\TCP__1.pdb
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Release\TCP__1.Form1.resources
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Release\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Release\TCP__1.exe
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Release\TCP__1.pdb
+C:\Users\OL\Desktop\ftpClient\TCP__1\bin\Release\TCP__1.exe
+C:\Users\OL\Desktop\ftpClient\TCP__1\bin\Release\TCP__1.pdb
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Release\TCP__1.Form1.resources
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Release\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Release\TCP__1.exe
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Release\TCP__1.pdb
+C:\Users\OL\Desktop\____\TCP__1\bin\Release\TCP__1.exe
+C:\Users\OL\Desktop\____\TCP__1\bin\Release\TCP__1.pdb
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Release\TCP__1.Form1.resources
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Release\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Release\TCP__1.exe
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Release\TCP__1.pdb

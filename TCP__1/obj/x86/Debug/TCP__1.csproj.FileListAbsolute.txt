@@ -1,0 +1,72 @@
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\bin\Debug\TCP__1.exe
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\bin\Debug\TCP__1.pdb
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\obj\x86\Debug\TCP__1.Form1.resources
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\obj\x86\Debug\TCP__1.Properties.Resources.resources
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\obj\x86\Debug\TCP__1.exe
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\TCP__1\obj\x86\Debug\TCP__1.pdb
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Debug\TCP__1.exe
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Debug\TCP__1.pdb
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\bin\Debug\TCP__1.exe
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\bin\Debug\TCP__1.pdb
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Debug\TCP__1.Form1.resources
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Debug\TCP__1.Properties.Resources.resources
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\User\мои документы\visual studio 2010\Projects\TCP__1\TCP__1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\TCP__1\TCP__1\obj\x86\Debug\TCP__1.exe
+C:\Users\OL\Desktop\TCP__1\TCP__1\obj\x86\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\TCP__1\TCP__1\bin\Debug\TCP__1.exe
+C:\Users\OL\Desktop\TCP__1\TCP__1\bin\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\TCP__1\TCP__1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\TCP__1\TCP__1\obj\x86\Debug\TCP__1.Form1.resources
+C:\Users\OL\Desktop\TCP__1\TCP__1\obj\x86\Debug\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\TCP__1\TCP__1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\TCP__1\TCP__1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Debug\TCP__1.exe
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\bin\Debug\TCP__1.exe
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\bin\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Debug\TCP__1.Form1.resources
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Debug\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\ftp_zzzzz\TCP__1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Debug\TCP__1.exe
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\ftpClient\TCP__1\bin\Debug\TCP__1.exe
+C:\Users\OL\Desktop\ftpClient\TCP__1\bin\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Debug\TCP__1.Form1.resources
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Debug\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\ftpClient\TCP__1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Debug\TCP__1.exe
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\____\TCP__1\bin\Debug\TCP__1.exe
+C:\Users\OL\Desktop\____\TCP__1\bin\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Debug\TCP__1.Form1.resources
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Debug\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\____\TCP__1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\obj\x86\Debug\TCP__1.exe
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\obj\x86\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\bin\Debug\TCP__1.exe
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\bin\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\obj\x86\Debug\TCP__1.Form1.resources
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\obj\x86\Debug\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\FTP__0001\2\____\TCP__1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\obj\x86\Debug\TCP__1.exe
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\obj\x86\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\bin\Debug\TCP__1.exe
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\bin\Debug\TCP__1.pdb
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\obj\x86\Debug\TCP__1.Form1.resources
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\obj\x86\Debug\TCP__1.Properties.Resources.resources
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OL\Desktop\ftpClient_2\TCP__1\obj\x86\Debug\GenerateResource.write.1.tlog

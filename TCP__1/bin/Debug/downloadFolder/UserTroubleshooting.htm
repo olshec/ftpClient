@@ -1,0 +1,590 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Troubleshooting Overview</title>
+<style type="text/css">
+#bodyContent h1, #bodyContent h2 {
+	margin-bottom: .6em;
+}
+h2 { font-size: 150%; }
+
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	padding-top: .5em;
+	padding-bottom: .17em;
+	border-bottom: 1px solid #aaa;
+}
+	p {
+		margin: .4em 0 .5em 0;
+		line-height: 1.5em;
+	}
+#bodyContent h3, #bodyContent h4, #bodyContent h5 {
+	margin-bottom: .3em;
+}
+h3 { font-size: 132%; }
+h3, h4, h5, h6 {
+	border-bottom: none;
+	font-weight: bold;
+}
+h3 .editsection { font-size: 76%; font-weight: normal; }
+
+.editsection {
+	float: right;
+	margin-left: 5px;
+}
+
+h4 { font-size: 116%; }
+h4 .editsection { font-size: 86%; font-weight: normal; }
+ol {
+	line-height: 1.5em;
+	margin: .3em 0 0 3.2em;
+	padding: 0;
+	list-style-image: none;
+}
+li {
+	margin-bottom: .1em;
+}
+p img {
+	margin: 0;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+h2 .editsection { font-size: 67%; }
+#bodyContent a.external {
+	color: #36b;
+}
+#bodyContent a.external,
+#bodyContent a[href ^="gopher://"] {
+	background: url('images/UserTroubleshootingPic3.png') no-repeat right 50%;
+	padding-right: 13px;
+}
+
+.printfooter {
+	display: none;
+}
+
+.style1 {
+				font-family: Verdana;
+}
+.style4 {
+				text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+
+<h2 class="style1">Troubleshooting Overview</h2>
+<p class="style1">This page describes common issues and resolutions for 
+ftp.intel.com file transfer services. </p>
+<span class="mw-headline"><span class="style1"><br />
+<a href="#Who_can_I_contact_for_support">Who can I contact for support?</a><br />
+<br />
+How To Guides<table style="width: 100%">
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="ExternalUserGuides.htm">Guide for 
+								External users connected outside of Intel&#39;s 
+								internal network</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="IntelUserGuides.htm">Guide for Intel 
+								users connected inside of Intel&#39;s internal 
+								network</a></td>
+				</tr>
+				</table>
+<br />
+Web Browser Issues<table style="width: 100%">
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#Within_IE_web_browser,_cannot_see_View-FTP_Site_in_Windows_Explorer_in_menu_bar">
+								Within IE web browser, cannot see View-&gt;FTP Site 
+								in Windows Explorer in menu bar</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#I_get_an_Access_Denied_error_when_trying_to_browse_to_the_/incoming_or_/outgoing_folders">
+								I get an Access Denied error when trying to 
+								browse to the /incoming or /outgoing folders</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#CannotUploadInFirefox">Cannot upload 
+								files using Firefox Web browser</a></td>
+				</tr>
+</table>
+<br />
+General Issues</span><table style="width: 100%">
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;&nbsp; &nbsp;</td>
+								<td class="style1">
+								<a href="#Microsoft_Windows_FTP_Program_(FTP.exe)_is_not_working">
+								Microsoft Windows FTP Program (FTP.exe) is not 
+								working</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#Performance_is_slow2">Performance is 
+								slow</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#ServerDisconnects">Server disconnects, 
+								but transfer still continues (ECONNABORTED - 
+								Connection Aborted)</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#Unable_to_connect2">Unable to connect</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#Unable_to_connect_ftps">Unable to 
+								connect using FTP over Explicit FTP/SSL (FTPS) 
+								over VPN</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#Unable_to_list_file_from_a_directory">
+								Unable to list files from directory</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#Unable_to_confirm_file_upload_was_successful">
+								Unable to confirm file upload was successful</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1"><a href="#access_denied_2">I 
+								get an Access Denied error when trying to browse 
+								to the /incoming or /outgoing folders</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#Unable_to_CD_into_the_/incoming_or_/outgoing_folders_to_upload_or_download_files">
+								Unable to CD into the /incoming or /outgoing 
+								folders to upload or download files</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#GET_Wildcards">Cannot use a wildcards 
+								in FTP GET for /incoming or /outgoing folders</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<span class="mw-headline">
+								<a name="GET_Wildcards0" href="#MGET">Cannot use 
+								&quot;mget&quot; or &quot;get -r&quot; FTP commands for /incoming or 
+								/outgoing folders</a></span></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								<a href="#Can_successfully_connect">Can successfully connect to ftp.intel.com, but 
+								as soon as I try to download/upload a file or 
+								list the directory, I get disconnected or the 
+								service is unresponsive</a></td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1"><a href="#Unknown_Error2">
+								Unknown Error</a></td>
+				</tr>
+</table>
+<span class="style1"><br />
+<h3 class="style4"><a name="Who_can_I_contact_for_support">Who can I contact for 
+support?</a></h3>
+<br />
+For issues please contact
+<a href="mailto:B2B.Tech.Support@intel.com">B2B.Tech.Support@intel.com</a>&nbsp; <br />
+</span>
+<h3 class="style1"><u>Web Browser Issues</u></h3>
+<span class="style1"><a name="Unable_to_connect"></a>
+<a name="When_using_Internet_Explorer_.28or_another_FTP_client.29_I_get_an_Access_Denied_error_when_trying_to_browse_to_the_.2Fincoming_or_.2Foutgoing_folders">
+</a></span>
+<h4 class="style1">
+<a name="Within_IE_web_browser,_cannot_see_View-FTP_Site_in_Windows_Explorer_in_menu_bar">
+Within IE web browser, cannot see View-&gt;FTP Site in Windows Explorer in menu bar</a></h4>
+<ol>
+				<li class="style1">Within IE, goto Tools menu --&gt; Internet 
+				Options... and click the Advanced tab </li>
+				<li class="style1">Scroll down and CHECK the option &quot;Enable 
+				folder view for FTP sites&quot; </li>
+				<li class="style1">Click OK button to apply the advanced 
+				settings </li>
+				<li class="style1">Close and re-launch Internet Explorer </li>
+</ol>
+<h4 class="style1">
+<a name="I_get_an_Access_Denied_error_when_trying_to_browse_to_the_/incoming_or_/outgoing_folders">
+I get an Access Denied error when trying to browse to the /incoming or /outgoing 
+folders</a></h4>
+<p class="style1">This issue applied only to Anonymous file transfers.&nbsp; All 
+&quot;incoming&quot; and &quot;outgoing&quot; folders do not allow directory listing of files for 
+security measures. When trying to list files from these folder, an access denied 
+error is expected. Most FTP client GUI tools will automatically try to list 
+files when you traverse a file structure regardless of whether you want to see 
+files in the folders or not. When prompted due to the errors, just click through 
+the error and then try your file transfer.&nbsp; You may also see these Access 
+Denied or Directory Listing Denied errors in the FTP Client log that can be 
+ignored.</p>
+<p class="style1">For example, you may see the error when browsing to the 
+/outgoing folder to upload a file within the Internet Explorer web browse (also 
+applies to /incoming folder):<br />
+<a class="image" title="Image:Outgoing_ie_ftp_error.JPG" href="http://mwpedia.intel.com/index.php?title=Image:Outgoing_ie_ftp_error.JPG">
+<img alt="Image:Outgoing_ie_ftp_error.JPG" src="images/UserTroubleshootingPic1.JPG" width="487" height="232" longdesc="http://mwpedia.intel.com/index.php?title=Image:Outgoing_ie_ftp_error.JPG" /></a>
+</p>
+<p class="style1">If you saw the above error, click OK and then upload your file 
+as you normally would:<br />
+<a class="image" title="Image:Outgoing_upload_ie.JPG" href="http://mwpedia.intel.com/index.php?title=Image:Outgoing_upload_ie.JPG">
+<img alt="Image:Outgoing_upload_ie.JPG" src="images/UserTroubleshootingPic2.JPG" width="397" height="303" longdesc="http://mwpedia.intel.com/index.php?title=Image:Outgoing_upload_ie.JPG" /></a>
+</p>
+<h4 class="style1">
+<a name="CannotUploadInFirefox">Cannot upload files using Firefox Web browser</a></h4>
+<p class="style1">Firefox Web browser (3.6.x and possible future versions) 
+without 3rd party add-ons will not allow a user to upload a file.&nbsp; Files 
+can only be downloaded over FTP using this Web browser.</p>
+</span>
+<h3 class="style1">&nbsp;</h3>
+<h3 class="style1"><u>General Issues</u></h3>
+<span class="style1"><a name="Windows_FTP_Program_.28FTP.exe.29_is_not_working">
+</a></span>
+<h4 class="style1">
+<a name="Microsoft_Windows_FTP_Program_(FTP.exe)_is_not_working">Microsoft 
+Windows FTP Program (FTP.exe) is not working</a></h4>
+<p class="style1">Windows FTP program (sometimes referred to as FTP.exe) is not 
+supported due to its inability to support a feature called passive data 
+connections. You will need to find an FTP program that does support passive data 
+connections.&nbsp; A <a href="ExternalUserGuides.htm">guide for users outside of 
+Intel&#39;s networks</a> and a <a href="IntelUserGuides.htm">guide for users 
+connected inside of Intel</a> may be helpful; however, there are other FTP clients 
+other than those mentioned in the guides that 
+support passive data connections are available. </p>
+<span class="style1"><a name="Performance_is_slow"></a></span>
+<h4 class="style1"><a name="Performance_is_slow2">Performance is slow</a></h4>
+<p class="style1">Tips to gain higher performance are: </p>
+<ol>
+				<li class="style1">Use FTP over Explicit TLS/SSL connections.&nbsp; 
+				In some unique situations cases, this transfer method can be 
+				faster.</li>
+				<li class="style1">The Internet will likely have the greatest 
+				impact on performance. In general, higher the bandwidth/speed of 
+				Internet connection will increase performance. </li>
+				<li class="style1">Network latency can increase transfer times 
+				and this service is hosted in California, US; therefore, it is 
+				likely that transferring files within the US will be faster than 
+				transferring files outside of the US. Transferring files from 
+				other US sites outside of California may also be slower. </li>
+				<li class="style1">Transferring files on off-peak hours can 
+				increase performance. In general off-peak hours are between 
+				1:00-6:00am within a geography&#39;s timezone. </li>
+				<li class="style1">Transferring files in parallel (or splitting 
+				a large file and transferring each chunk in parallel) can be 
+				faster if the network bandwidth allows this. </li>
+				<li class="style1">To avoid possible interruptions in file 
+				transfers and having to restart the transfer of a large file 
+				from the beginning, you will want to confirm that your FTP 
+				client and the FTP service you are using supports Resume 
+				capability. Most do, but some do not. Anonymous Adhoc file 
+				transfer (incoming/outgoing folders) do not support FTP resume 
+				due to blind drop/get requirements.&nbsp; Named FTP accounts do; 
+				however, support the ability to resume.</li>
+				<li class="style1">For connections originating within Intel&#39;s 
+				internal networks, avoid the use of a Proxy server.&nbsp; If you 
+				are required to do this due to your network requirements, then 
+				use Intel Proxy Server host server in your FTP Client 
+				configuration that is closest to your current location. This 
+				should decrease network latency. </li>
+</ol>
+<span class="style1"><a name="Unknown_Error"></a></span><span class="style1">
+<a name="Can_successfully_connect_to_ftp.intel.com.2C_but_as_soon_as_I_try_to_download.2Fupload_a_file_or_list_the_directory.2C_I_get_disconnected_or_the_service_is_unresponsive">
+</a></span>
+<span class="mw-headline">
+<h4 class="style1">
+<a name="ServerDisconnects">Server disconnects, but transfer still continues 
+(ECONNABORTED - Connection Aborted)</a></h4>
+<p class="style1">You may be seeing a disconnect from the ftp.intel.com remote 
+server and still continue to see your file still transferring.&nbsp; This is 
+normal behavior.&nbsp; The remote server is considering your command 
+communication channel as idle if you are not using it while your file is 
+transferred and after 5 minutes, the remote server will force a disconnect.&nbsp; 
+This is not expected to stop your file transfer as a separate &quot;data&quot; 
+communication channel is being used to transfer your file and only after it 
+completes the transfer will that communication channel disconnect.</p>
+</span>
+<h4 class="style1"><a name="Unable_to_connect2">Unable to connect</a></h4>
+<ol>
+				<li class="style1">Install an FTP client if none installed yet
+				</li>
+				<li><span class="style1">Configure the FTP client to connect to 
+				ftp.intel.com using the following settings: </span>
+				<ol>
+								<li class="style1">
+<span class="mw-headline">Host/Server: ftp.intel.com (port 21)</span>
+
+								</li>
+								<li class="style1">
+<span class="mw-headline">Mode/Connection Type: Normal FTP (unsecure), Explicit 
+								FTP/SSL (secure), Explicit FTP/TLS (secure), or 
+								FTPES (secure).<br />
+								* Note that Implicit FTPS is not supported.<br />
+								* Important note about security: To ensure that 
+								your file transfer kept confidential always 
+								encrypt your files before upload.</span></li>
+								<li class="style1">Username: anonymous </li>
+								<li class="style1">Password: &lt;your email 
+								address&gt; </li>
+								<li class="style1">
+<span class="mw-headline">Choose to use Passive (PASV) Data Connections (NOTE: 
+								this may be a command that you need to set after 
+								connecting)</span>
+
+								</li>
+				</ol>
+				</li>
+				<li class="style1">Configure any network firewall you are 
+				connecting through for network port 21 (control channel) and 
+				network ports 36000-36200 (data channels) to ftp.intel.com</li>
+				<li class="style1">Disconnect from any VPN connection to Intel&#39;s 
+				network if you are connecting using FTP over Explicit FTP/SSL 
+				(FTPS).&nbsp; This is an expected known issue with Intel&#39;s VPN 
+				connections that has no known workaround.&nbsp; VPN connections 
+				to other companies may also see this same issue where 
+				disconnecting may also be a resolution.</li>
+</ol>
+<h4 class="style1"><a name="Unable_to_connect_ftps">Unable to connect
+<span class="mw-headline">using FTP over Explicit FTP/SSL (FTPS)</span></a> over 
+VPN</h4>
+<p class="style1">Disconnect from any VPN connection to Intel&#39;s network if you 
+are connecting using FTP over Explicit FTP/SSL (FTPS).&nbsp; This is an expected 
+known issue with Intel&#39;s VPN connections that has no known workaround.&nbsp; VPN 
+connections to other companies may also see this same issue where disconnecting 
+may also be a resolution.</p>
+<p class="style1">&nbsp;</p>
+<p class="style1">This known issue can be confirmed if you are able to connect 
+successfully using regular unsecure FTP.&nbsp; Some FTP client logs show a hang 
+after the AUTH TLS/SSL command and some FTP client logs may show an error 
+message similar to &quot;GnuTLS error -73: ASN1 parser: Error in TAG.&quot;.&nbsp; If you 
+are aware that your connection is being routed through a Checkpoint firewall, 
+then is it possible that the firewall requires inspection of the data packets 
+and will drop a connection when it cannot inspect the data, such is the case 
+when the FTP connection starts the TLS/SSL handshake as part of the FTPS 
+protocol.</p>
+<h4 class="style1"><a name="Unable_to_list_file_from_a_directory">Unable to list 
+file from a directory</a></h4>
+<ol>
+				<li class="style1">This issue applied only to Anonymous file 
+				transfers.</li>
+				<li class="style1">
+<span class="mw-headline"><span class="style1">All &quot;incoming&quot; and &quot;outgoing&quot; 
+				folders do not allow directory listing of files. When trying to 
+				list files from these folders, you may see an access denied 
+				error or unable to connect to site error. Most FTP client GUI 
+				tools will automatically try to list files when you traverse a 
+				file structure regardless of whether you want to see files in 
+				the folders or not. Please expect these errors when using the 
+				GUI tools when viewing, downloading, or uploading files in each 
+				of the &quot;incoming&quot; and &quot;outgoing&quot; folders.</span></span></li>
+</ol>
+<h4 class="style1"><a name="Unable_to_confirm_file_upload_was_successful">Unable 
+to confirm file upload was successful</a></h4>
+<ol>
+				<li class="style1">This issue applied only to Anonymous file 
+				transfers.</li>
+				<li class="style1">
+<span class="mw-headline">To determine whether a file upload was successful, 
+				review the FTP log for the commands used by the GUI tool (e.g. 
+				after &quot;STOR myfile.txt&quot; command you should expect to see 
+				&quot;Response: 226 Transfer complete&quot;)</span></li>
+</ol>
+<h4 class="style1"><a name="access_denied_2">I get an Access Denied error when 
+trying to browse to the /incoming or /outgoing folders</a></h4>
+<p class="style1">This issue applied only to Anonymous file transfers.&nbsp; All 
+&quot;incoming&quot; and &quot;outgoing&quot; folders do not allow directory listing of files for 
+security measures. When trying to list files from these folder, an access denied 
+error is expected. Most FTP client GUI tools will automatically try to list 
+files when you traverse a file structure regardless of whether you want to see 
+files in the folders or not. When prompted due to the errors, just click through 
+the error and then try your file transfer.&nbsp; You may also see these Access 
+Denied or Directory Listing Denied errors in the FTP Client log that can be 
+ignored.</p>
+<p class="style1">For example, you may see the error when browsing to the 
+/outgoing folder to upload a file within the Internet Explorer web browse (also 
+applies to /incoming folder):<br />
+<a class="image" title="Image:Outgoing_ie_ftp_error.JPG" href="http://mwpedia.intel.com/index.php?title=Image:Outgoing_ie_ftp_error.JPG">
+<img alt="Image:Outgoing_ie_ftp_error.JPG" src="images/UserTroubleshootingPic1.JPG" width="487" height="232" longdesc="http://mwpedia.intel.com/index.php?title=Image:Outgoing_ie_ftp_error.JPG" /></a>
+</p>
+<p class="style1">If you saw the above error, click OK and then upload your file 
+as you normally would:<br />
+<a class="image" title="Image:Outgoing_upload_ie.JPG" href="http://mwpedia.intel.com/index.php?title=Image:Outgoing_upload_ie.JPG">
+<img alt="Image:Outgoing_upload_ie.JPG" src="images/UserTroubleshootingPic2.JPG" width="397" height="303" longdesc="http://mwpedia.intel.com/index.php?title=Image:Outgoing_upload_ie.JPG" /></a>
+</p>
+<h4 class="style1">
+<a name="Unable_to_CD_into_the_/incoming_or_/outgoing_folders_to_upload_or_download_files">
+Unable to CD into the /incoming or /outgoing folders to upload or download files</a></h4>
+<p class="style1">The &quot;incoming&quot; and &quot;outgoing&quot; folders do not allow a CD into 
+the folder. This is due to permissions that disallow a directory listing.&nbsp; 
+To Download or Upload a file into the &quot;incoming&quot; and &quot;outgoing&quot; folder, you must 
+be in the Pub folder which is the parent of the &quot;incoming&quot; and &quot;outgoing&quot; 
+folders.&nbsp; Once inside the Pub folder, specify the entire folder path 
+including the file name and depending on your FTP client software, you may need 
+to specify the local file name too.</p>
+<p class="style1">While in the Pub folder, the following commands are examples 
+of what your FTP client software may support:</p>
+<span class="mw-headline"><span class="style1"><table style="width: 100%">
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								get Incoming/myfile.dat</td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								get Outgoing/myfile.dat</td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								get Incoming/myfile.dat myfile.dat</td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								get Outgoing/myfile.dat myfile.dat</td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								put Incoming/myfile.dat myfile.dat</td>
+				</tr>
+				<tr>
+								<td style="width: 41px" class="style1">&nbsp;</td>
+								<td class="style1">
+								put Outgoing/myfile.dat myfile.dat</td>
+				</tr>
+				</table>
+</span>
+</span>
+<p class="style1">
+It is important to note that some FTP client software tools may require the use 
+of the backslash or two backslashes instead of the forward slash in the above 
+examples</p>
+<h4 class="style1">
+<span class="mw-headline"><a name="GET_Wildcards">Cannot use a wildcards in FTP 
+GET for /incoming or /outgoing folders</a></span></h4>
+<p class="style1">It is not possible to use wildcards when downloading files 
+from the /incoming or /outgoing folders when logged on using an anonymous user.&nbsp; 
+This is expected behavior.&nbsp; Specify the file name of each file you need to 
+download.</p>
+<h4 class="style1">
+<span class="mw-headline"><a name="MGET">Cannot use &quot;mget&quot; or &quot;get -r&quot; FTP 
+commands for /incoming or /outgoing folders</a></span></h4>
+<p class="style1">It is not possible to use the &quot;mget&quot; or &quot;get -r&quot; FTP commands 
+to download files from the /incoming or /outgoing folders when logged on using 
+an anonymous user.&nbsp; This is expected behavior.&nbsp; Specify the file name 
+of each file you need to download.</p>
+<h4 class="style1"><a name="Can_successfully_connect">Can 
+successfully connect to ftp.intel.com, but as soon as I try to 
+download/upload a file or list the directory, I get disconnected or the service 
+is unresponsive</a></h4>
+<p class="style1">Be sure that your FTP client is configured for use of passive 
+data connections. Windows FTP client (FTP.exe) does not support passive data 
+connections; therefore, it is not supported.</p>
+<span class="style1">
+<a name="Within_IE_web_browser.2C_cannot_see_View-.3EFTP_Site_in_Windows_Explorer_in_menu_bar">
+</a></span>
+<h4 class="style1"><a name="Unknown_Error2">Unknown Error</a></h4>
+<p class="style1">If you are unable to find help anywhere in this guide, here 
+are some steps that may help </p>
+<ol>
+				<li><span class="style1">For anonymous adhoc file transfer...
+				</span>
+				<ol>
+								<li class="style1">If possible, follow the 
+								guides for using the FileZilla FTP Client or 
+								Internet Explorer Web browser to determine if 
+								the problem is isolated to your FTP client.&nbsp; 
+								A <a href="ExternalUserGuides.htm">guide for 
+								users outside of Intel&#39;s networks</a> and a
+								<a href="IntelUserGuides.htm">guide for users 
+								connected inside of Intel</a> may be helpful</li>
+								<li class="style1">If you are connected to 
+								Intel&#39;s network, then you can only download 
+								files from the /pub/incoming folder and upload 
+								files into the /pub/outgoing folder </li>
+								<li class="style1">If you are connected outside 
+								of Intel&#39;s network, then you can only download 
+								files from the /pub/outgoing folder and upload 
+								files in the /pub/incoming folder </li>
+								<li class="style1">When downloading files, you 
+								cannot navigate into either of the /pub/incoming 
+								or /pub/outgoing folder directly. You must be in 
+								a parent folder and use the entire path to the 
+								file including the file name to download it 
+								(e.g. get /pub/outgoing/myfile.txt) </li>
+								<li class="style1">You must be using Passive 
+								Data Connections. Be sure this feature is 
+								enabled. Passive Data Connections is the default 
+								if using a Web browser. If you not sure whether 
+								Passive Data Connections are allowed, connect to 
+								ftp.intel.com using your FTP client and enter an 
+								&quot;ls&quot; command at the root folder. If your 
+								connection is closed automatically or becomes 
+								unresponsive, then Passive Data Connections is 
+								disabled; therefore, review the documentation of 
+								your FTP Client on how to enable this feature.
+								</li>
+				</ol>
+				</li>
+				<li><span class="style1">If using a Web browser to access 
+				ftp.intel.com </span>
+				<ol>
+								<li class="style1">Be sure that you are using 
+								Internet Explorer or Firefox </li>
+								<li class="style1">Note that you cannot upload 
+								files using Firefox </li>
+								<li class="style1">When uploading files, you may 
+								see an Access Denied error when browsing to the 
+								/pub/incoming or /pub/outgoing folder. That is 
+								expected to disallow listing of files. Click OK 
+								to the error prompt and continue to upload the 
+								file. You should be able to successfully upload 
+								the file; however, you will not be able to see 
+								the file after the transfer because file listing 
+								is disallowed. </li>
+				</ol>
+				</li>
+</ol>
+<span class="style1"><a name="Anonymous_Adhoc_File_Transfer"></a></span>
+<span class="style1">
+<a name="When_using_a_command_line_FTP_script_.28other_than_Win_FTP.exe.29_I_get_an_Access_Denied_error_when_trying_to_CD_into_the_.2Fincoming_or_.2Foutgoing_folders">
+</a></span><span class="style1"><a name="Shared_Named_User_Accounts"></a></span>
+<span class="style1"><a name="Production_Support"></a>
+<a name="Where_to_Get_More_Information"></a></span>
+
+</body>
+
+</html>
